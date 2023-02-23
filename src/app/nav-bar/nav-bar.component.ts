@@ -6,16 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
-  isNavbarCollapsed = true;
 
-  constructor() { }
+  isCollapsed = true;
 
-  ngOnInit(): void {
+  toggleNavbar() {
+    this.isCollapsed = !this.isCollapsed;
   }
-
-  toggleNavbar(): void {
-    this.isNavbarCollapsed = !this.isNavbarCollapsed;
-  }
-
-
+  
 }

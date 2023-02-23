@@ -61,17 +61,25 @@
               rows="8"
               required
             ></textarea>
-          </div> 
+          </div>
           <div class="text-center">
-            <button type="submit" class="btn btn-primary btn-lg">
+            <button
+              type="submit"
+              class="btn btn-primary btn-lg"
+              (click)=" onSubmit()"
+            >
               Enviar mensaje
             </button>
           </div>
-          <!-- redireccion al mainpage -->
-          <input type="hidden" name="_next" value="http://localhost:4200" />
-          <!-- asunto del correo -->
-          <input type="hidden" name="_subject" value="¡Nuevo envío!" >
 
+          <!-- redireccion al mainpage -->
+          <input
+            type="hidden"
+            name="_next"
+            value="http://localhost:4200/#contact"
+          />
+          <!-- asunto del correo -->
+          <input type="hidden" name="_subject" value="¡Nuevo envío!" />
         </form>
       </div>
       <div class="col-md-4">

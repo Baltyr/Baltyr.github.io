@@ -1,6 +1,5 @@
-<!-- TODO: cambiar el logo -->
-<!-- TODO: despliegue de la barra -->
 <nav class="navbar navbar-expand-md fixed-top">
+  <a class="navbar-brand" href="#home"><img src="assets/img/icono.png" /></a>
   <button
     class="navbar-toggler"
     type="button"
@@ -9,11 +8,15 @@
     aria-controls="navbarNav"
     aria-expanded="false"
     aria-label="Toggle navigation"
+    (click)="toggleNavbar()"
   >
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#home" >Logo</a>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+  <div
+    class="collapse navbar-collapse justify-content-end"
+    id="navbarNav"
+    [ngClass]="{ 'show': isCollapsed }"
+  >
     <ul class="navbar-nav text-center">
       <li class="nav-item">
         <a class="nav-link" href="#home">Inicio</a>
@@ -33,9 +36,3 @@
     </ul>
   </div>
 </nav>
-
-<script>
-  $(".navbar-nav>li>a").on("click", function () {
-    $(".navbar-collapse").collapse("hide");
-  });
-</script>
