@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 
 // modal
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
-import {  FormsModule } from '@angular/forms';
+
 
 
 
