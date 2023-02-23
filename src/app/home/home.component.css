@@ -8,20 +8,20 @@
   align-items: center;
   text-align: center;
   padding: 50px 0;
-}
-
-#home h1 {
+  }
+  
+  #home h1 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 2rem;
-}
-
-#home p {
+  }
+  
+  #home p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-}
-
-#home .btn {
+  }
+  
+  #home .btn {
   font-size: 1.5rem;
   margin-top: 2rem;
   border-radius: 25px;
@@ -30,79 +30,79 @@
   color: #fff;
   background-color: #000;
   border-color: #000;
-}
-
-#home .btn:hover {
+  }
+  
+  #home .btn:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
   background-color: #a1a1a1;
   border-color: #a1a1a1;
   color: #000;
-}
-
-
-#home img {
+  }
+  
+  #home img {
   width: 100%;
   max-width: 500px;
   display: block;
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
   #home h1 {
-    font-size: 3rem;
+  font-size: 2.5rem;
   }
-
+  
   #home p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
   }
-
+  
   #home .img-fluid {
-    width: 10rem;
-    height: 10rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   }
-
+  
   #home .btn {
-    font-size: 1.2rem;
-    margin-top: 2.5rem;
-    padding: 0.8rem 2.5rem;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+  padding: 0.8rem 2.5rem;
   }
-}
-
-#home .img-fluid {
+  }
+  
+  #home .img-fluid {
   width: 15rem;
   height: 15rem;
   object-fit: cover;
   border-radius: 50%;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
-}
-
-.section-box {
+  }
+  
+  .section-box {
   padding: 60px;
   background-color: grey;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-}
-
-.section-box #home {
+  }
+  
+  .section-box #home {
   padding: 0;
   margin: 0;
-}
-
-.section-box #home h1 {
+  }
+  
+  .section-box #home h1 {
   margin-bottom: 2rem;
   color: #fff;
-}
-
-.section-box #home p {
+  }
+  
+  .section-box #home p {
   margin-bottom: 2rem;
   color: bl;
-}
+  }
 
 .section-box #home .btn {
   margin-top: 2rem;
@@ -124,3 +124,13 @@
   max-width: 900px;
   margin: 0 auto;
   }
+
+  @media (max-width: 576px) {
+    #home .display-4 {
+      font-size: 2.5rem;
+    }
+    #home .section-box {
+      padding: 30px;
+    }
+  }
+  

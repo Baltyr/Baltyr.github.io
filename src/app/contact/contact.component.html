@@ -1,51 +1,100 @@
 <!-- cambiar el button y hacerlo funcional -->
 <section id="contact">
-  <br>
+  <br />
   <div class="container">
     <div class="row">
-      <div  class="col-md-12">
+      <div class="col-md-12">
         <h2 class="section-title">Contactame</h2>
         <div class="section-title-divider"></div>
-        <br>
-        <p class="section-description">Envíame un mensaje si tienes alguna pregunta o si te gustaría trabajar conmigo.</p>
+        <br />
+        <p class="section-description">
+          Envíame un mensaje si tienes alguna pregunta o si te gustaría trabajar
+          conmigo.
+        </p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-8">
-        <form id="contact-form" method="post" action="#">
+        <form
+          id="contact-form"
+          method="post"
+          action="https://formsubmit.co/abascur@innevo.cl"
+        >
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Nombre"
+                  required
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Correo electrónico" required>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Correo electrónico"
+                  required
+                />
               </div>
             </div>
           </div>
           <div class="form-group">
-            <input type="text" name="subject" class="form-control" placeholder="Asunto" required>
+            <input
+              type="text"
+              name="subject"
+              class="form-control"
+              placeholder="Asunto"
+              required
+            />
           </div>
           <div class="form-group">
-            <textarea name="message" class="form-control" placeholder="Mensaje" rows="8" required></textarea>
-          </div>
+            <textarea
+              name="message"
+              class="form-control"
+              placeholder="Mensaje"
+              rows="8"
+              required
+            ></textarea>
+          </div> 
           <div class="text-center">
-            <button type="submit" class="btn btn-primary btn-lg">Enviar mensaje</button>
+            <button type="submit" class="btn btn-primary btn-lg">
+              Enviar mensaje
+            </button>
           </div>
+          <!-- redireccion al mainpage -->
+          <input type="hidden" name="_next" value="http://localhost:4200" />
+          <!-- asunto del correo -->
+          <input type="hidden" name="_subject" value="¡Nuevo envío!" >
+
         </form>
       </div>
       <div class="col-md-4">
         <div class="contact-info">
-          <h3 class="contact-title">Información de contacto </h3>
+          <h3 class="contact-title">Información de contacto</h3>
           <p><i class="fa fa-map-marker"></i> Los Angeles, Bio Bio, Chile</p>
           <p><i class="fa fa-phone"></i> +56 9 4482 1723</p>
-          <p><i class="fa fa-envelope"></i> <a href="mailto:example@mail.com"> abascur@innevo.cl</a></p>
+          <p>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:example@mail.com"> abascur@innevo.cl</a>
+          </p>
           <div class="social-links">
-            <a href="https://twitter.com/TYR09207695" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://github.com/Baltyr" class="github"><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/allan-bascur-artigas-a9b7b0175/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/TYR09207695" class="twitter"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a href="https://github.com/Baltyr" class="github"
+              ><i class="fa fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/allan-bascur-artigas-a9b7b0175/"
+              class="linkedin"
+              ><i class="fa fa-linkedin"></i
+            ></a>
           </div>
         </div>
       </div>
