@@ -1,0 +1,126 @@
+/* Estilos para la sección de inicio */
+#home {
+  background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#home h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#home p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#home .btn {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 25px;
+  padding: 12px 25px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+#home .btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+  background-color: #a1a1a1;
+  border-color: #a1a1a1;
+  color: #000;
+}
+
+
+#home img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 3rem;
+  }
+
+  #home p {
+    font-size: 1.2rem;
+  }
+
+  #home .img-fluid {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #home .btn {
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    padding: 0.8rem 2.5rem;
+  }
+}
+
+#home .img-fluid {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-box {
+  padding: 60px;
+  background-color: grey;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.section-box #home {
+  padding: 0;
+  margin: 0;
+}
+
+.section-box #home h1 {
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.section-box #home p {
+  margin-bottom: 2rem;
+  color: bl;
+}
+
+.section-box #home .btn {
+  margin-top: 2rem;
+  border-radius: 25px;
+  padding: 12px 25px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
+  /* Estilos para la caja alrededor del texto */
+  .section-box {
+  padding: 60px;
+  background-color: rgba(205, 205, 205, 0.8);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  }

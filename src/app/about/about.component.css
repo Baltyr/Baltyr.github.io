@@ -1,0 +1,50 @@
+/* Estilos para la sección Acerca de */
+#about {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.section-title-divider {
+  width: 60px;
+  height: 3px;
+  background-color: #f2a900;
+  margin-bottom: 40px;
+}
+
+.section-description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.about-img {
+  text-align: center;
+}
+
+.about-img img {
+  width: 80%;
+  border-radius: 50%;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .about-img img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
