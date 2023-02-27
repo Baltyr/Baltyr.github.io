@@ -11,16 +11,18 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CommonModule } from '@angular/common';
 
-// modal
-import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
-
-
-
-
-
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, HomeComponent, AboutComponent, SkillsComponent, ProjectsComponent, ContactComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule,SweetAlert2Module, CommonModule],
+  declarations: [
+    AppComponent,
+    NavBarComponent,
+    HomeComponent,
+    AboutComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    ContactComponent,
+    FooterComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, CommonModule],
   providers: [],
   bootstrap: [AppComponent],
 })
