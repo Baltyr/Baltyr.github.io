@@ -7,10 +7,15 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
-  isCollapsed = false;
+  isCollapsed = true;
+  activeLink = '';
 
   toggleNavbar() {
     this.isCollapsed = !this.isCollapsed;
   }
-  
+
+  setActiveLink(link: string) {
+    this.activeLink = link;
+    this.isCollapsed = true;
+  }
 }

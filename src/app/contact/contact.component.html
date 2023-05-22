@@ -12,67 +12,59 @@
         </p>
       </div>
     </div>
+
     <div class="row">
       <div class="col-md-8">
-        <form
-          id="contact-form"
-          method="post"
-          action="https://formsubmit.co/abascur@innevo.cl"
-        >
+        <form id="contact-form" method="post" action="https://formsubmit.co/abascur@innevo.cl">
           <div class="row">
             <div class="col-md-6">
-              <div class="form-group">
-                <input
-                  type="text"
-                  name="name"
-                  class="form-control"
-                  placeholder="Nombre"
-                  required
-                />
+              <div class="form-group input-container">
+                <input type="text" name="name" class="form-control input-field" placeholder="Nombre" required>
+                <label for="name" class="input-label">Nombre</label>
+                <span class="input-highlight"></span>
               </div>
             </div>
             <div class="col-md-6">
-              <div class="form-group">
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control"
-                  placeholder="Correo electrónico"
-                  required
-                />
+              <div class="form-group input-container">
+                <input type="email" name="email" class="form-control input-field" placeholder="Correo electrónico"
+                  required>
+                <label for="email" class="input-label">Correo electrónico</label>
+                <span class="input-highlight"></span>
               </div>
             </div>
           </div>
-          <div class="form-group">
-            <input
-              type="text"
-              name="subject"
-              class="form-control"
-              placeholder="Asunto"
-              required
-            />
+          <div class="form-group input-container">
+            <input type="text" name="subject" class="form-control input-field" placeholder="Asunto" required>
+            <label for="subject" class="input-label">Asunto</label>
+            <span class="input-highlight"></span>
           </div>
-          <div class="form-group">
-            <textarea
-              name="message"
-              class="form-control"
-              placeholder="Mensaje"
-              rows="8"
-              required
-            ></textarea>
+          <div class="form-group input-container">
+            <textarea name="message" class="form-control input-field" rows="8" placeholder="Mensaje"
+              required></textarea>
+            <label for="message" class="input-label">Mensaje</label>
+            <span class="input-highlight"></span>
           </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-primary btn-lg">
-              Enviar mensaje
-            </button>
+          <div class="text-center ">
+            <div class="d-flex align-items-center justify-content-center">
+              <button type="submit justify-content-center">
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper justify-content-center">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path
+                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                        fill="currentColor"></path>
+                    </svg>
+                  </div>
+                </div>
+                <span>Enviar</span>
+              </button>
+            </div>
           </div>
 
+
           <!-- redireccion al mainpage -->
-          <input
-            type="hidden"
-            name="_next"
-            value="https://baltyr.github.io/#contact"
-          />
+          <input type="hidden" name="_next" value="https://baltyr.github.io/#contact" />
           <!-- asunto del correo -->
           <input type="hidden" name="_subject" value="¡Nuevo envío!" />
         </form>
@@ -87,17 +79,10 @@
             <a href="mailto:abascur@innevo.cl"> abascur@innevo.cl</a>
           </p>
           <div class="social-links">
-            <a href="https://twitter.com/TYR09207695" class="twitter"
-              ><i class="fa fa-twitter"></i
-            ></a>
-            <a href="https://github.com/Baltyr" class="github"
-              ><i class="fa fa-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/allan-bascur-artigas-a9b7b0175/"
-              class="linkedin"
-              ><i class="fa fa-linkedin"></i
-            ></a>
+            <a href="https://twitter.com/TYR09207695" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/Baltyr" class="github"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/allan-bascur-artigas-a9b7b0175/" class="linkedin"><i
+                class="fa fa-linkedin"></i></a>
           </div>
         </div>
       </div>
